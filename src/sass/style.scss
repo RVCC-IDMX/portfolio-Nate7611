@@ -188,12 +188,17 @@ header,
 .main-article__figure img {
   border-radius: 10px;
   border: 4px solid var(--clr-neutral-900);
+  margin-block-end: 30px;
 }
 
 .main-article__figure figcaption {
   margin: 1rem 0;
   font-size: var(--fs-300);
   opacity: 0.9;
+}
+
+.main-article a {
+  color: var(--clr-neutral-900);
 }
 
 /* //////////////////////
